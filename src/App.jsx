@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import Second from './pages/Second'
 import './App.css'
 import Footer from './components/layout/Footer.jsx'
+import React from 'react'
 
 function App() {
   return (
