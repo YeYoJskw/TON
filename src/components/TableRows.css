@@ -1,0 +1,229 @@
+/* Общие стили для таблицы */
+.table {
+  max-width: 634px;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.table-container {
+  overflow-x: auto; /* Включает горизонтальный скролл */
+  -webkit-overflow-scrolling: touch; /* Плавная прокрутка на iOS */
+}
+
+/* Заголовки */
+.th {
+  text-align: left;
+
+  color: #1e2022;
+  padding: 22px 22.5px;
+}
+
+.view-blocks {
+  width: 153px;
+  height: 36px;
+  border: 1px solid #eff3f9;
+  color: #5a6773;
+  font-size: 12px;
+  position: relative;
+  font-weight: 600;
+  background: none;
+  cursor: pointer;
+}
+
+.view-blocks-img {
+  position: absolute;
+  right: 16px;
+  top: 15px;
+}
+
+.view-transactions {
+  width: 189px;
+  height: 36px;
+  border: 1px solid #eff3f9;
+  color: #5a6773;
+  font-size: 12px;
+  position: relative;
+  font-weight: 600;
+  background: none;
+  cursor: pointer;
+}
+
+.view-blocks-img {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+}
+
+.view-transactions-img {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+}
+
+/* Строки */
+.tr {
+  transition: background 0.2s ease-in-out;
+}
+
+.tr:hover {
+  background: #f9fafb;
+}
+
+/* Ячейки */
+.block-td {
+  padding: 20px 28px;
+}
+
+/* Последняя строка без границы */
+.tr:last-child td {
+  border-bottom: none;
+}
+
+/* Блок с аватаром и ID блока */
+.block-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Кружок с буквами "Bk" */
+.avatar {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: #f8fafd;
+  justify-content: center;
+  align-items: center;
+  color: #5a6773;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+/* ID блока */
+.item-id {
+  color: #4285f4;
+  font-size: 14px;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.item-id:hover {
+  text-decoration: underline;
+}
+
+/* Время создания блока */
+.time-ago {
+  font-size: 12px;
+  color: #5a6773;
+}
+
+/* Валидация блока */
+.validated a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.validated a:hover {
+  text-decoration: underline;
+}
+
+/* Количество транзакций */
+.time-txns {
+  font-size: 12px;
+  color: #4285f4;
+}
+
+.table-to {
+  color: #1e2022;
+  font-size: 14px;
+}
+
+.time-txns a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.time-txns a:hover {
+  text-decoration: underline;
+}
+
+/* Сумма TON */
+.amount {
+  font-weight: 400;
+  font-size: 12px;
+  color: #5a6773;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.validated-info {
+  padding-left: 0px;
+}
+
+.validated {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.table {
+  font-size: 12px;
+  overflow-x: auto;
+}
+
+.validated-td {
+  padding-left: 77px;
+  padding-right: 48px;
+  margin: 0;
+}
+
+.table-container.blocks .validated-td {
+  padding-left: 77px;
+  padding-right: 48px;
+}
+
+.table-container.transactions .validated-td {
+  padding-left: 14px;
+}
+
+@media (max-width: 1260px) {
+  .table-container.transactions,
+  .table-container.blocks {
+    padding-left: 0;
+    justify-content: center;
+    overflow-x: auto;
+  }
+
+  .table-container .table {
+    font-size: 12px;
+    overflow-x: auto;
+    margin-bottom: 50px;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .tables {
+    display: block !important;
+  }
+
+  .th,
+  .td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-container-blocks {
+    overflow-x: auto;
+    margin-bottom: 100px;
+  }
+
+  .th,
+  .td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
