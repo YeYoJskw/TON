@@ -215,6 +215,30 @@ tr:hover {
   th,
   .td {
     font-size: 12px;
-    padding: 8px;
+  }
+
+  tr {
+    display: flex;
+    position: relative;
+  }
+
+  .view-blocks {
+    position: absolute;
+    left: 150px;
+    top: 11px;
+  }
+
+  .view-transactions {
+    position: absolute;
+    left: 155px;
+    top: 11px;
+  }
+
+  .validated-td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .avatar {
+    width: 35px;
   }
 }

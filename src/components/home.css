@@ -619,10 +619,10 @@
   }
 
   .graph-container {
-    width: 295px;
+    width: 310px;
     height: 240px;
     align-items: flex-start;
-    background-position: 35px 79px;
+    background-position: 25px 79px;
     margin-top: 59px;
     box-sizing: border-box;
   }
@@ -666,11 +666,11 @@
 
   .graph-dates {
     display: flex;
-    padding-left: 40px;
+    padding-left: 45px;
   }
 
   .graph-content {
-    padding-left: 10px;
+    padding-left: 6px;
   }
 
   .graph-date {
@@ -680,7 +680,7 @@
   .graph-sticks {
     display: flex;
     gap: 36.5px;
-    padding-left: 50px;
+    padding-left: 63px;
     padding-bottom: 7px;
   }
 
