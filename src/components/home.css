@@ -101,6 +101,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .cards {
@@ -300,10 +301,6 @@
 @media screen and (max-width: 1290px) {
   .tables {
     display: block;
-  }
-
-  .cards-section {
-    margin-bottom: 70px;
   }
 }
 
