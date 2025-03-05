@@ -12,7 +12,7 @@ import React from 'react'
 
 function App() {
   return (
-    <Router basename="/TON">
+    <Router basename="/">
       {' '}
       {/* Добавляем basename */}
       <div className="container">
