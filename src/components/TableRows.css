@@ -255,7 +255,7 @@ tr:hover {
     font-size: 12px;
   }
 
-  tr {
+  .tr {
     display: flex;
     position: relative;
   }
