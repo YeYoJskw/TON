@@ -14,8 +14,9 @@ function Home() {
             <form className="form-search" action="">
               <select className="filter-dropdown">
                 <option value="option1">All filters</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
+                <option value="option2">SOLANA BLOCKCHAIN</option>
+                <option value="option3">TON BLOCKCHAIN</option>
+                <option value="option4">Q BLOCKCHAIN</option>
               </select>
               <div>
                 <input
@@ -24,7 +25,7 @@ function Home() {
                   placeholder="Search by Address / Txn Hash / Block / Token"
                 />
                 <button className="search-button">
-                  <img src="/TON/img/search.svg" alt="" />
+                  <img src="/img/search.svg" alt="" />
                 </button>
               </div>
             </form>
@@ -34,14 +35,14 @@ function Home() {
           <div>
             <div className="cards">
               <div className="card">
-                <img className="img-card" src="/TON/img/diamond.svg" alt="" />
+                <img className="img-card" src="/img/diamond.svg" alt="" />
                 <div className="price-info">
                   <h3 className="coin-name">Toncoin Price</h3>
                   <div className="price-details">
                     <span className="price">2.45 USDT</span>
                     <span className="exchange-rate">0.009972 TONCOIN </span>
                     <div className="percent">
-                      <img src="/TON/img/red.svg" alt="" />
+                      <img src="/img/red.svg" alt="" />
                       <span className="price-change-red">1.12%</span>
                     </div>
                   </div>
@@ -49,7 +50,7 @@ function Home() {
               </div>
 
               <div className="card">
-                <img className="img-card" src="/TON/img/agreement.svg" alt="" />
+                <img className="img-card" src="/img/agreement.svg" alt="" />
                 <div className="price-info">
                   <div className="main-card">
                     <div>
@@ -71,18 +72,14 @@ function Home() {
               </div>
 
               <div className="card">
-                <img
-                  className="img-card"
-                  src="/TON/img/investment.svg"
-                  alt=""
-                />
+                <img className="img-card" src="/img/investment.svg" alt="" />
                 <div className="price-info">
                   <h3 className="coin-name">Market Cap</h3>
                   <div className="price-details">
                     <span className="price">3,185,745,879 USDT</span>
                     <span className="exchange-rate"></span>
                     <div className="percent">
-                      <img src="/TON/img/red.svg" alt="" />
+                      <img src="/img/red.svg" alt="" />
                       <span className="price-change-red">5.12%</span>
                     </div>
                   </div>
@@ -90,13 +87,13 @@ function Home() {
               </div>
 
               <div className="card">
-                <img className="img-card" src="/TON/img/global.svg" alt="" />
+                <img className="img-card" src="/img/global.svg" alt="" />
                 <div className="price-info">
                   <h3 className="coin-name">Fully Diluted Market Cap</h3>
                   <div className="price-details">
                     <span className="price">$3,185,745,879</span>
                     <div className="percent">
-                      <img src="/TON/img/green.svg" alt="" />
+                      <img src="/img/green.svg" alt="" />
                       <span className="price-change-green">5.12%</span>
                     </div>
                   </div>
@@ -111,7 +108,7 @@ function Home() {
                   Toncoin transaction history last 14 days
                 </p>
                 <button className="graph-settings">
-                  <img src="/TON/img/graph-setting.svg" alt="" />
+                  <img src="/img/graph-setting.svg" alt="" />
                 </button>
               </div>
               <div className="graph-values">

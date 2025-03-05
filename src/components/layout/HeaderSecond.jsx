@@ -13,8 +13,9 @@ const HeaderSecond = () => {
       <form className="form-search-header" action="">
         <select className="filter-dropdown-header">
           <option value="option1">All filters</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
+          <option value="option2">SOLANA BLOCKCHAIN</option>
+          <option value="option3">TON BLOCKCHAIN</option>
+          <option value="option4">Q BLOCKCHAIN</option>
         </select>
         <div>
           <input
@@ -23,7 +24,7 @@ const HeaderSecond = () => {
             placeholder="Search by Address "
           />
           <button className="search-button-header">
-            <img src="/TON/img/search.svg" alt="" />
+            <img src="/img/search.svg" alt="" />
           </button>
         </div>
       </form>

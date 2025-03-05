@@ -108,7 +108,7 @@ const Second = () => {
         <HeaderSecond />
         <div>
           <div className="QR-block">
-            <img className="qr-code" src="/TON/img/QR.svg" alt="" />
+            <img className="qr-code" src="/img/QR.svg" alt="" />
             <div className="qr-content">
               <div className="qr-address qr-data">
                 <span className="qr-label">Address</span>
