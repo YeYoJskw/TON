@@ -297,9 +297,13 @@
   gap: 55px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1290px) {
   .tables {
     display: block;
+  }
+
+  .cards-section {
+    margin-bottom: 70px;
   }
 }
 
@@ -366,7 +370,7 @@
   }
 
   .cards-section .card {
-    width: 346px;
+    width: 347px;
     height: 128px;
     margin-right: 0px;
     padding-left: 0px;
@@ -448,7 +452,7 @@
   }
 
   .graph-container {
-    width: 380px;
+    width: 383px;
     height: 256px;
     align-items: flex-start;
     background-position: 35px 79px;

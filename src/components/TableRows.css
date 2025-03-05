@@ -217,6 +217,44 @@ tr:hover {
     font-size: 12px;
   }
 
+  .tr {
+    display: flex;
+    position: relative;
+  }
+
+  .view-blocks {
+    position: absolute;
+    left: 160px;
+    top: 11px;
+  }
+
+  .view-transactions {
+    position: absolute;
+    left: 175px;
+    top: 11px;
+    width: 180px;
+  }
+
+  .validated-td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .avatar {
+    width: 35px;
+  }
+}
+
+@media (max-width: 380px) {
+  .table-container-blocks {
+    overflow-x: auto;
+    margin-bottom: 100px;
+  }
+
+  th,
+  .td {
+    font-size: 12px;
+  }
+
   tr {
     display: flex;
     position: relative;
@@ -232,6 +270,7 @@ tr:hover {
     position: absolute;
     left: 155px;
     top: 11px;
+    width: 175px;
   }
 
   .validated-td {
