@@ -1,3 +1,0 @@
-{
-  "routes": [{ "source": "/assets/(.*)", "destination": "/assets/$1" }]
-}
