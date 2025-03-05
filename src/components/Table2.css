@@ -75,6 +75,13 @@
 }
 
 /* Добавляем адаптивность */
+
+@media (max-width: 1284px) {
+  .tab {
+    overflow-x: auto;
+    margin-bottom: 100px;
+  }
+}
 @media (max-width: 1024px) {
   .tab {
     padding-left: 0;

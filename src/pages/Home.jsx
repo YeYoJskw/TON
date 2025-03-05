@@ -24,7 +24,7 @@ function Home() {
                   placeholder="Search by Address / Txn Hash / Block / Token"
                 />
                 <button className="search-button">
-                  <img src="/TON/img/search.png" alt="" />
+                  <img src="/TON/img/search.svg" alt="" />
                 </button>
               </div>
             </form>
@@ -34,14 +34,14 @@ function Home() {
           <div>
             <div className="cards">
               <div className="card">
-                <img className="img-card" src="/TON/img/diamond.png" alt="" />
+                <img className="img-card" src="/TON/img/diamond.svg" alt="" />
                 <div className="price-info">
                   <h3 className="coin-name">Toncoin Price</h3>
                   <div className="price-details">
                     <span className="price">2.45 USDT</span>
                     <span className="exchange-rate">0.009972 TONCOIN </span>
                     <div className="percent">
-                      <img src="/TON/img/red.png" alt="" />
+                      <img src="/TON/img/red.svg" alt="" />
                       <span className="price-change-red">1.12%</span>
                     </div>
                   </div>
@@ -49,7 +49,7 @@ function Home() {
               </div>
 
               <div className="card">
-                <img className="img-card" src="/TON/img/agreement.png" alt="" />
+                <img className="img-card" src="/TON/img/agreement.svg" alt="" />
                 <div className="price-info">
                   <div className="main-card">
                     <div>
@@ -73,7 +73,7 @@ function Home() {
               <div className="card">
                 <img
                   className="img-card"
-                  src="/TON/img/investment.png"
+                  src="/TON/img/investment.svg"
                   alt=""
                 />
                 <div className="price-info">
@@ -82,7 +82,7 @@ function Home() {
                     <span className="price">3,185,745,879 USDT</span>
                     <span className="exchange-rate"></span>
                     <div className="percent">
-                      <img src="/TON/img/red.png" alt="" />
+                      <img src="/TON/img/red.svg" alt="" />
                       <span className="price-change-red">5.12%</span>
                     </div>
                   </div>
@@ -90,13 +90,13 @@ function Home() {
               </div>
 
               <div className="card">
-                <img className="img-card" src="/TON/img/global.png" alt="" />
+                <img className="img-card" src="/TON/img/global.svg" alt="" />
                 <div className="price-info">
                   <h3 className="coin-name">Fully Diluted Market Cap</h3>
                   <div className="price-details">
                     <span className="price">$3,185,745,879</span>
                     <div className="percent">
-                      <img src="/TON/img/green.png" alt="" />
+                      <img src="/TON/img/green.svg" alt="" />
                       <span className="price-change-green">5.12%</span>
                     </div>
                   </div>
@@ -111,7 +111,7 @@ function Home() {
                   Toncoin transaction history last 14 days
                 </p>
                 <button className="graph-settings">
-                  <img src="/TON/img/graph-setting.png" alt="" />
+                  <img src="/TON/img/graph-setting.svg" alt="" />
                 </button>
               </div>
               <div className="graph-values">

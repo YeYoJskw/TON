@@ -15,7 +15,7 @@ const Footer = () => {
               Platform
             </p>
             <a href="">
-              <img src="/TON/img/telegram.png" alt="" />
+              <img src="/TON/img/telegram.svg" alt="" />
             </a>
           </div>
           <nav className="links">

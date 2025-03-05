@@ -23,7 +23,7 @@ const HeaderSecond = () => {
             placeholder="Search by Address "
           />
           <button className="search-button-header">
-            <img src="/TON/img/search.png" alt="" />
+            <img src="/TON/img/search.svg" alt="" />
           </button>
         </div>
       </form>

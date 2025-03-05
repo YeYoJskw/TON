@@ -26,9 +26,14 @@ header ul {
   padding-right: 4.9rem;
 }
 
-header a {
+header nav a {
   color: #000;
   font-size: 14px;
+  transition: all 0.15s ease-in-out;
+}
+
+header nav a:hover {
+  color: #22448f;
 }
 
 .button-header {
@@ -45,6 +50,15 @@ header a {
   font-family: 'Rubik';
   letter-spacing: 0.02rem;
   cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-header:focus {
+  transform: scale(1.1);
+}
+
+.button-header:hover {
+  background-color: #5b94f1;
 }
 
 .logo-header {
@@ -79,7 +93,7 @@ header a {
     height: 42px;
   }
 
-  header a {
+  header nav a {
     font-size: 15px;
   }
 }
@@ -104,7 +118,7 @@ header a {
     font-size: 12px;
   }
 
-  header a {
+  header nav a {
     font-size: 12px;
   }
 }
@@ -130,7 +144,7 @@ header a {
     font-size: 8px;
   }
 
-  header a {
+  header nav a {
     font-size: 8px;
   }
 }

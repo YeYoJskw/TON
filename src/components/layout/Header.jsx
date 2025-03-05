@@ -13,13 +13,13 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="">Top</a>
+            <a href="#">Top</a>
           </li>
           <li>
-            <a href="">Blocks</a>
+            <a href="#">Blocks</a>
           </li>
           <li>
-            <a href="">Transactions</a>
+            <a href="#">Transactions</a>
           </li>
         </ul>
         <button onClick={() => navigate('/second')} className="button-header">

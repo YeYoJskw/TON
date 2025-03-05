@@ -1,3 +1,12 @@
+@keyframes fadeInUp {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .hero-block {
   height: 400px;
   background-color: #000;
@@ -25,7 +34,7 @@
 
 .filter-dropdown {
   font-family: 'Rubik';
-  background-image: url('/img/down.png');
+  background-image: url('/img/down.svg');
   background-repeat: no-repeat;
   background-position: right 15px center;
   width: 120px;
@@ -38,6 +47,13 @@
   appearance: none;
   color: #5a6773;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.filter-dropdown:focus,
+.search-field:focus {
+  border: none;
+  outline: none;
 }
 
 .search-field {
@@ -68,6 +84,19 @@
   padding-left: 2px;
 }
 
+.search-button {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.search-button:focus {
+  transform: scale(1.1);
+}
+
+.search-button:hover {
+  background-color: #5b94f1;
+}
+
 .cards-section {
   display: flex;
   flex-wrap: wrap;
@@ -89,6 +118,8 @@
   margin-bottom: 0px;
   margin-right: 25px;
   padding-left: 40px;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 .card:nth-last-child(2n + 1) {
@@ -183,7 +214,7 @@
   height: 256px;
   align-items: flex-start;
   background-color: #eff3f9;
-  background-image: url('/img/graph.png');
+  background-image: url('/img/graph.svg');
   background-repeat: no-repeat;
   background-position: 61px 79px;
   margin-top: 59px;

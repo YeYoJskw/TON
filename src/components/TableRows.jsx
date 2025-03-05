@@ -52,7 +52,7 @@ const TableRows = ({ type }) => {
                       ? 'view-blocks-img'
                       : 'view-transactions-img'
                   }
-                  src="/TON/img/view.png"
+                  src="/TON/img/view.svg"
                   alt=""
                 />
               </button>

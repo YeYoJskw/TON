@@ -35,6 +35,11 @@ footer {
 .link {
   color: #fff;
   font-size: 14px;
+  transition: all 0.15s ease-in-out;
+}
+
+.link:hover {
+  color: #c8c9ca;
 }
 
 .foot {
