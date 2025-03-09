@@ -13,10 +13,10 @@ function Home() {
             <h1>Q address explorer</h1>
             <form className="form-search" action="">
               <select className="filter-dropdown">
-                <option value="option1">All filters</option>
-                <option value="option2">SOLANA BLOCKCHAIN</option>
-                <option value="option3">TON BLOCKCHAIN</option>
-                <option value="option4">Q BLOCKCHAIN</option>
+                <option value="option1">ALL FILTERS</option>
+                <option value="option2">SOLANA BCHAIN</option>
+                <option value="option3">TON BCHAIN</option>
+                <option value="option4">Q BCHAIN</option>
               </select>
               <div>
                 <input

@@ -12,10 +12,10 @@ const HeaderSecond = () => {
       </a>
       <form className="form-search-header" action="">
         <select className="filter-dropdown-header">
-          <option value="option1">All filters</option>
-          <option value="option2">SOLANA BLOCKCHAIN</option>
-          <option value="option3">TON BLOCKCHAIN</option>
-          <option value="option4">Q BLOCKCHAIN</option>
+          <option value="option1">ALL FILTERS</option>
+          <option value="option2">SOLANA</option>
+          <option value="option3">TON BCHAIN</option>
+          <option value="option4">Q BCHAIN</option>
         </select>
         <div>
           <input
