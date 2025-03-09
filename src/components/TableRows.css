@@ -212,6 +212,10 @@ tr:hover {
     margin-bottom: 100px;
   }
 
+  .block-td {
+    padding: 12px 18px;
+  }
+
   th,
   .td {
     font-size: 12px;
@@ -228,6 +232,10 @@ tr:hover {
     top: 11px;
   }
 
+  .amount {
+    padding-top: 22px;
+  }
+
   .view-transactions {
     position: absolute;
     left: 175px;
@@ -235,10 +243,14 @@ tr:hover {
     width: 180px;
   }
 
-  .validated-td {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .table-container.blocks .validated-td {
+    padding: 12px 15px;
   }
+
+  .table-container.transactions .validated-td {
+    padding: 12px 15px;
+  }
+
   .avatar {
     width: 35px;
   }

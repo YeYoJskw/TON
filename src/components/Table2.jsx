@@ -21,9 +21,6 @@ const Table2 = ({ data }) => {
             <th className="th-table2" scope="col">
               Status
             </th>
-            <th className="th-table2" scope="col">
-              Message
-            </th>
           </tr>
         </thead>
         <tbody>
@@ -51,7 +48,6 @@ const Table2 = ({ data }) => {
                   {row.status}
                 </button>
               </td>
-              <td className="message-td td-table2">{row.message}</td>
             </tr>
           ))}
         </tbody>

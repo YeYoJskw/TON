@@ -108,6 +108,18 @@
     margin-bottom: 100px;
   }
 
+  .age-td {
+    padding: 18px 20px;
+  }
+
+  .from-td {
+    padding-right: 35px;
+  }
+
+  .to-td {
+    padding-right: 30px;
+  }
+
   .table2 {
     display: block;
     overflow-x: auto;

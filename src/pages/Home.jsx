@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/layout/Header'
 import TableRows from '../components/TableRows'
 import '../components/home.css'
 
 function Home() {
+  const [selected, setSelected] = useState('option1') // Начальное значение
+
   return (
     <div>
       <Header />
@@ -12,7 +14,13 @@ function Home() {
           <div className="content-hero">
             <h1>Q address explorer</h1>
             <form className="form-search" action="">
-              <select className="filter-dropdown">
+              <select
+                className={
+                  selected === 'option1' ? 'selected-filter' : 'selected-def'
+                }
+                value={selected}
+                onChange={(e) => setSelected(e.target.value)}
+              >
                 <option value="option1">ALL FILTERS</option>
                 <option value="option2">SOLANA BCHAIN</option>
                 <option value="option3">TON BCHAIN</option>
