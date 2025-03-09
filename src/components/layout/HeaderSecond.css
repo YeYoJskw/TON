@@ -250,8 +250,9 @@
     height: 30px;
     margin-right: 1px;
     padding-left: 2px;
-    font-size: 7.2px;
+    font-size: 7.3px;
     background: none;
+    letter-spacing: -0.01;
   }
 
   .search-field-header {
@@ -297,7 +298,7 @@
     height: 30px;
     margin-right: 1px;
     padding-left: 0px;
-    font-size: 7px;
+    font-size: 8px;
     background: none;
   }
 
