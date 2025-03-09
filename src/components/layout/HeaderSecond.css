@@ -246,19 +246,19 @@
   }
 
   .filter-dropdown-header {
-    width: 40px;
+    width: 48px;
     height: 30px;
     margin-right: 1px;
     padding-left: 2px;
-    font-size: 7.3px;
+    font-size: 8px;
     background: none;
-    letter-spacing: -0.01;
+    letter-spacing: -0.3px;
   }
 
   .search-field-header {
     width: 180px;
     height: 30px;
-    font-size: 8px;
+    font-size: 8.5px;
     padding-left: 2px;
   }
 
@@ -294,16 +294,16 @@
   }
 
   .filter-dropdown-header {
-    width: 45px;
+    width: 48px;
     height: 30px;
     margin-right: 1px;
     padding-left: 0px;
-    font-size: 8px;
+    font-size: 7.5px;
     background: none;
   }
 
   .search-field-header {
-    width: 135px;
+    width: 130px;
     height: 30px;
     font-size: 8px;
     padding-left: 2px;
@@ -341,7 +341,7 @@
   }
 
   .filter-dropdown-header {
-    width: 30px;
+    width: 40px;
     height: 30px;
     margin-right: 1px;
     padding-left: 2px;
@@ -350,7 +350,7 @@
   }
 
   .search-field-header {
-    width: 130px;
+    width: 125px;
     height: 30px;
     font-size: 8px;
     padding-left: 2px;
