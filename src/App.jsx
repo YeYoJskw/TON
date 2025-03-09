@@ -9,6 +9,7 @@ import Second from './pages/Second'
 import './App.css'
 import Footer from './components/layout/Footer.jsx'
 import React from 'react'
+import MenuButtom from './components/MenuBottom.jsx'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
+      <MenuButtom />
     </Router>
   )
 }
