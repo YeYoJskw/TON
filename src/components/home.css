@@ -541,7 +541,7 @@
 
 @media screen and (max-width: 380px) {
   .form-search {
-    padding-left: 3px;
+    padding-left: 2px;
   }
 
   .selected-filter {
